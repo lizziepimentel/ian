@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSON2</title>
+    <style>
+        .product {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="jsonDisplay"></div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $.get("products.json", function(data) {
+                var products = data.products;
+                var jsonDisplay = document.getElementById("jsonDisplay");
+                for (var i = 0; i < products.length; i++) {
+                    var product = products[i];
+                    var productDiv = document.createElement("div");
+                    productDiv.classList.add("product");
+                    productDiv.innerHTML = `
+                        <h2>${product.name}</h2>
+                        <p>${product.description}</p>
+                        <p>Size: ${product.size}</p>
+                        <p>Price: ${product.price}</p>
+                        <p>Categories: ${product.categories.join(", ")}</p>
+                    jsonDisplay.appendChild(productDiv);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
