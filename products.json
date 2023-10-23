@@ -1,0 +1,89 @@
+{
+    "products" : [
+            {
+                "name": "iPhone 15",
+                "description": "15th Generation Standard Apple Phone",
+                "size": "6.1-inch",
+                "price": "799",
+                "categories": ["Phone"]
+            },
+            {
+                "name": "iPhone 15 Plus",
+                "description": "15th Generation Larger Apple Phone",
+                "size": "6.7-inch",
+                "price": "899",
+                "categories": ["Phone", "Plus"]
+            },
+            {
+                "name": "iPhone 15 Pro",
+                "description": "15th Generation Apple Phone with Upgraded Specs",
+                "size": "6.1-inch",
+                "price": "999",
+                "categories": ["Phone", "Pro"]
+            },
+            {
+                "name": "iPhone 15 Pro Max",
+                "description": "15th Generation Larger Apple Phone with Upgraded Specs",
+                "size": "6.7-inch",
+                "price": "1199",
+                "categories": ["Phone", "Pro", "Max"]
+            },
+            {
+                "name": "Macbook Air",
+                "description": "New Macbook Air w/M2 Chip",
+                "size": "15-inch",
+                "price": "1299",
+                "categories": ["Laptop", "Air"]
+            },
+            {
+                "name": "Mac Studio",
+                "description": "New Mac Studio w/M2 Max Chip",
+                "size": "7.7-inch",
+                "price": "1999",
+                "categories": ["Desktop", "Studio"]
+            },
+            {
+                "name": "Mac Pro",
+                "description": "New Mac Pro w/M2 Ultra Chip",
+                "size": "17.7-inch",
+                "price": "6999",
+                "categories": ["Desktop", "Pro"]
+            },
+            {
+                "name": "iPad Pro",
+                "description": "New iPad Pro w/M2 Chip",
+                "size": "12.9-inch",
+                "price": "1099",
+                "categories": ["Tablet", "Pro"]
+            },
+            {
+                "name": "iPad",
+                "description": "New 10th Generation iPad",
+                "size": "10.9-inch",
+                "price": "449",
+                "categories": ["Tablet"]
+            },
+            {
+                "name": "Apple Watch Series 9",
+                "description": "New Apple Watch with the new S9 SIP",
+                "size": "41 mm",
+                "price": "399",
+                "categories": ["Watch"]
+            },
+            {
+                "name": "Apple Watch Ultra 2",
+                "description": "New Apple Watch Ultra with the new S9 SIP",
+                "size": "49 mm",
+                "price": "799",
+                "categories": ["Watch"]
+            },
+            {
+                "name": "Apple Watch Hermes",
+                "description": "New Special Edition Apple Watch",
+                "size": "41 mm",
+                "price": "1249",
+                "categories": ["Watch", "Hermes"]
+            }
+        ]
+    
+}
